@@ -3,7 +3,7 @@ Data Structures for C++<a name="TOP"></a>
 <br/>
 
 # About the project #
-This project aims to provide a simplfied way of using data structures in C++. There are in-built data structures like stack and queue data in C++, but I wanted to create something unique for my own needs.  
+This project aims to provide a simplfied way of using data structures in C++. There are in-built data structures like stack and queue data in C++. There are also other great github repos for this use case, but I wanted to create something simple and unique for my own needs.  
 <br/>
 # Getting Started #
 
@@ -129,17 +129,26 @@ For more details regarding usage of googletest, refer their documentation.
 - [ ] ChangeLog
 - [ ] Doubly Linked List
 - [ ] Binary Search Tree
-- [ ] Improved source code comments
+- [ ] Improve source code comments
 
 <br/>
 
 
 ## Contributing ##
 ---
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.  
+Contributions are one of the key advantages of the open source community. Any contributions you wish to make are more than welcome.  
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some new feature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
+<br/>
+
+## References ##
+---
+1. [cmake Documentation](https://cmake.org/documentation/)
+2. [googletest Documentation](https://google.github.io/googletest/)
+3. [markdown repo by tchapi](https://github.com/tchapi/markdown-cheatsheet) for easy README template reference
+4. [Best-README-Template repo by othneildrew](https://github.com/othneildrew/Best-README-Template) for easy README template reference
+5. [StackOverflow community](https://stackoverflow.com/)
