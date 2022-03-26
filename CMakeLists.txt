@@ -1,0 +1,6 @@
+project(simple-datastructures-cpp)
+cmake_minimum_required(VERSION 3.0)
+add_subdirectory(src)
+add_subdirectory(tests)
+enable_testing()
+add_test(NAME datastructures-cpp-ut COMMAND tests/datastructures-cpp-ut)

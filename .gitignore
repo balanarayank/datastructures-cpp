@@ -1,0 +1,8 @@
+#Ignore VS Code specific
+.vscode/
+
+#Ignore cmake build folder
+build/
+
+#Ignore temporary files
+*~
