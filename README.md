@@ -3,12 +3,11 @@ Data Structures for C++<a name="TOP"></a>
 <br/>
 
 # About the project #
-This project aims to provide a simplfied way of using data structures in C++. There are in-built data structures like stack and queue data in C++. There are also other great github repos for this use case, but I wanted to create something simple and unique for my own needs.  
+This project intends to provide a simple way of using data structures in C++. There are in-built data structures like stack and queue in C++. There are also other great github repos for this use case, but I wanted to create something simple and unique for my own needs.  
 <br/>
 # Getting Started #
 
 ## Usage ##
-----
 If you simply intend to integrate this into your project, compilation is not required. Simply copy the folders inside src directory to your project workspace and include the relevant header files.  
 <br/>
 ### Instantiation ### 
@@ -60,7 +59,6 @@ If there are multiple instances of data, all nodes containing data will be delet
 <br/>  
 
 ## Compilation  ##   
----   
 This project uses cmake build environment.  
 <br/>
 
@@ -125,7 +123,6 @@ For more details regarding usage of googletest, refer their documentation.
 <br/>
 
 ## TODO ##
----
 - [ ] ChangeLog
 - [ ] Doubly Linked List
 - [ ] Binary Search Tree
@@ -135,7 +132,6 @@ For more details regarding usage of googletest, refer their documentation.
 
 
 ## Contributing ##
----
 Contributions are one of the key advantages of the open source community. Any contributions you wish to make are more than welcome.  
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
@@ -146,7 +142,6 @@ Contributions are one of the key advantages of the open source community. Any co
 <br/>
 
 ## References ##
----
 1. [cmake Documentation](https://cmake.org/documentation/)
 2. [googletest Documentation](https://google.github.io/googletest/)
 3. [markdown repo by tchapi](https://github.com/tchapi/markdown-cheatsheet) for easy README template reference
