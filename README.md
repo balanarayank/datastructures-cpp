@@ -126,7 +126,7 @@ For more details regarding usage of googletest, refer their documentation.
 - [ ] ChangeLog
 - [ ] Doubly Linked List
 - [ ] Binary Search Tree
-- [ ] Improve source code comments
+- [x] Improve source code comments
 
 <br/>
 
