@@ -34,7 +34,7 @@ class SinglyLinkedList {
 				nodeToDelete = nextNode; //proceed to delete next node
 			}
 		}
-		//Insert new data to head
+		//Insert new data at front
 		bool InsertAtHead(T new_data) {
 			bool returnStatus = false;
 			try {
@@ -48,6 +48,7 @@ class SinglyLinkedList {
 			}
 			return returnStatus;
 		}
+		//Insert new data at end
 		bool InsertAtTail(T new_data) {
 			bool returnStatus = false;
 			try {
@@ -57,11 +58,11 @@ class SinglyLinkedList {
 				}
 				else {
 					SLLNode<T> *newNode = GetNewNode(new_data); //get new node
-					SLLNode<T> *nodeRef = *(&head);
-					while(nodeRef->next != nullptr) { //iterate towards the last node
-						nodeRef = nodeRef->next;
+					SLLNode<T> *currNode = head;
+					while(currNode->next != nullptr) { //iterate towards the last node
+						currNode = currNode->next;
 					}
-					nodeRef->next = newNode; //new node will now be the last node
+					currNode->next = newNode; //new node will now be the last node
 					returnStatus = true;
 				}
 			}

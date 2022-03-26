@@ -13,8 +13,10 @@ If you simply intend to integrate this into your project, compilation is not req
 ### Instantiation ### 
 Data Structures exist as templates, so initialize the instance with required data type.  
 **eg:**  
-`SinglyLinkedList <int> sIntObj;`  
-`SinglyLinkedList <std::string> sStrObj;`  
+`SinglyLinkedList <int> sIntObj; //initialize singly linked list of type int`  
+`SinglyLinkedList <std::string> sStrObj; //initialize singly linked list of type string`  
+`DoublyLinkedList <int> dIntObj; //initialize doubly linked list of type int`  
+`DoublyLinkedList <int> dStrObj; //initialize doubly linked list of type string`  
 <br/>
 ### Insert At Head ###
 `InsertAtHead()` can be used to insert new data at the head of your data structure.
@@ -39,6 +41,19 @@ Data Structures exist as templates, so initialize the instance with required dat
 ```sh  
 Hello -> World
 ```  
+__Note:__ If data structure is empty, nothing will be printed.  
+<br/>
+### Display the data structure in Reverse (for Doubly Linked List) ### 
+`DisplayReverse()` can be used to display the contents of your doubly linked list from tail to head.  
+**eg:**  
+`dIntObj.InsertAtHead(1);`  
+`dIntObj.InsertAtTail(2);`  
+`dIntObj.InsertAtTail(3);`  
+`std::cout << sIntObj.DisplayReverse(); << '\n'` prints:  
+```sh
+3 <- 2 <- 1
+```
+
 __Note:__ If data structure is empty, nothing will be printed.  
 <br/>
 ### Delete Node containing data ###  
@@ -124,7 +139,7 @@ For more details regarding usage of googletest, refer their documentation.
 
 ## TODO ##
 - [ ] ChangeLog
-- [ ] Doubly Linked List
+- [x] Doubly Linked List
 - [ ] Binary Search Tree
 - [x] Improve source code comments
 

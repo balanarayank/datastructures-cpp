@@ -100,6 +100,18 @@ TEST(SinglyLinkedListIntTest, DeleteRecurringData) {
 	EXPECT_EQ(sObj.Display(),"3 -> 3 -> 2 -> 4 -> 6 -> 2 -> 4 -> 6");
 }
 
+//Delete consecutive data occuring at multiple nodes
+TEST(SinglyLinkedListIntTest, DeleteConsecutiveData) {
+	SinglyLinkedList<int> sObj;
+	EXPECT_EQ(sObj.InsertAtHead(1), true);
+    EXPECT_EQ(sObj.InsertAtHead(2), true);
+    EXPECT_EQ(sObj.InsertAtHead(3), true);
+    EXPECT_EQ(sObj.InsertAtHead(3), true);
+    EXPECT_EQ(sObj.InsertAtHead(4), true);
+    EXPECT_EQ(sObj.Display(), "4 -> 3 -> 3 -> 2 -> 1");
+    EXPECT_EQ(sObj.Delete(3), true);
+    EXPECT_EQ(sObj.Display(), "4 -> 2 -> 1"); 
+}
 
 //Print empty linked list
 TEST(SinglyLinkedListStringTest, PrintEmpty) {
@@ -190,6 +202,19 @@ TEST(SinglyLinkedListStringTest, DeleteRecurringData) {
 	EXPECT_EQ(sObj.Delete("Good"), true);
 	EXPECT_EQ(sObj.Delete("Good"), false);
 	EXPECT_EQ(sObj.Display(),"Hello -> Hello -> World -> Morning -> Shine -> World -> Morning -> Shine");
+}
+
+//Delete consecutive data occuring at multiple nodes
+TEST(SinglyLinkedListStringTest, DeleteConsecutiveData) {
+	SinglyLinkedList<std::string> sObj;
+	EXPECT_EQ(sObj.InsertAtHead("Hello"), true);
+    EXPECT_EQ(sObj.InsertAtTail("Good"), true);
+    EXPECT_EQ(sObj.InsertAtTail("Morning"), true);
+    EXPECT_EQ(sObj.InsertAtTail("Morning"), true);
+    EXPECT_EQ(sObj.InsertAtTail("World"), true);
+    EXPECT_EQ(sObj.Display(), "Hello -> Good -> Morning -> Morning -> World");
+    EXPECT_EQ(sObj.Delete("Morning"), true);
+    EXPECT_EQ(sObj.Display(), "Hello -> Good -> World"); 
 }
 
 #endif
