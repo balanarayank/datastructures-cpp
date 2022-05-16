@@ -15,5 +15,5 @@ FetchContent_MakeAvailable(googletest)
 set(UT_CPP_SOURCES main_ut.cc)
 
 add_executable(${PROJECT_NAME} ${UT_CPP_SOURCES})	
-target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../src)
+target_include_directories(${PROJECT_NAME} PRIVATE ${DATASTRUCTURES_INC_DIR})
 target_link_libraries(${PROJECT_NAME} gtest gtest_main gmock gmock_main Threads::Threads)
