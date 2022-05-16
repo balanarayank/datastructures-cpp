@@ -150,6 +150,7 @@ Binary 'src/datastructures-cpp-example' executes an example executable.
 
 
 ### Unit Testing:
+
 This project uses [googletest](https://github.com/google/googletest) for unit testing. Project has been designed to clone and use googletest version 1.11.0 at the time of compilation.  
   
 To execute unit test cases after build (step 5 above):
@@ -164,6 +165,7 @@ For more details regarding usage, refer googletest [documentation](https://googl
 
 
 ## TODO
+
 - [ ] ChangeLog
 - [x] Doubly Linked List
 - [ ] Binary Search Tree
@@ -171,7 +173,9 @@ For more details regarding usage, refer googletest [documentation](https://googl
 
 
 ## Contributing
+
 Contributions are one of the key advantages of the open source community. Any contributions you wish to make are more than welcome.
+
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
 3. Commit your Changes (`git commit -m 'Add some new feature'`)
@@ -180,6 +184,7 @@ Contributions are one of the key advantages of the open source community. Any co
 
 
 ## References
+
 1. [cmake Documentation](https://cmake.org/documentation/)
 2. [googletest Documentation](https://google.github.io/googletest/)
 3. [markdown repo by tchapi](https://github.com/tchapi/markdown-cheatsheet) for easy README template reference
