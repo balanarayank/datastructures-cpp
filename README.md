@@ -167,9 +167,9 @@ For more details regarding usage, refer googletest [documentation](https://googl
 ## TODO
 
 - [ ] ChangeLog
-- [x] Doubly Linked List
+- [ ] Doubly Linked List
 - [ ] Binary Search Tree
-- [x] Improve source code comments
+- [ ] Improve source code comments
 
 
 ## Contributing
