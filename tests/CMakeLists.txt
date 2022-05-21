@@ -11,5 +11,4 @@ FetchContent_MakeAvailable(googletest)
 
 set(UT_CPP_SOURCES main_test.cc)
 add_executable(${PROJECT_NAME} ${UT_CPP_SOURCES})
-target_include_directories(${PROJECT_NAME} PRIVATE ${LINKEDLIST_INC_DIR})
 target_link_libraries(${PROJECT_NAME} PRIVATE gtest gtest_main gmock gmock_main)
